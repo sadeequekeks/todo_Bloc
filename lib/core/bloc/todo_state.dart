@@ -5,3 +5,7 @@ class TodoState {
 
   TodoState(this.todos);
 }
+
+class TodoInitial extends TodoState {
+  TodoInitial({required List<String> todos}) : super(todos);
+}
